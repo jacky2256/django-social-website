@@ -151,7 +151,12 @@ PASSWORD_HASHERS = [
 AUTHENTICATION_BACKENDS = [
     'account.authentication.EmailAuthBackend',
     'django.contrib.auth.backends.ModelBackend',
+    'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.google.GoogleOAuth2',
 ]
 
 
 SOCIAL_AUTH_JSONFIELD_ENABLED = True
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '81937512947-mpsl6na04jtuh5oo8r2kbkmu7gggfjcl.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'

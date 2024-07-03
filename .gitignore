@@ -102,3 +102,7 @@ __pypackages__/
 
 # pytest
 .pytest_cache/
+
+#certification
+cert.crt
+cert.key
